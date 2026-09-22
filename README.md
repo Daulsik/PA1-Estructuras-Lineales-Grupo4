@@ -97,6 +97,7 @@ De los 16 elementos de esta matriz, solo 3 son distintos de cero. Por eso se con
 matriz poco densa. 
 
 Diferencia entre ambas: 
+
 Matriz cuadrada: se define por su forma >  mismo número de filas y columnas. 
 
 Matriz poco densa: se define por la cantidad de ceros > la mayoría de sus elementos son 
