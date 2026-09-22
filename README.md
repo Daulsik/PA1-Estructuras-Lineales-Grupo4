@@ -104,6 +104,7 @@ Matriz poco densa: se define por la cantidad de ceros > la mayoría de sus eleme
 cero.
 
 Ejemplo: Registro de Asistencia Semanal de un Colegio
+
 Un colegio con 1,000 alumnos. Necesitan registrar las faltas de asistencia durante un año escolar de 200 días.
 
 Si el alumno asistió a clase, se registra un 0.
