@@ -106,7 +106,7 @@ Si el alumno faltó, se registra un 1.
 
                   Día 1   Día 2   Día 3  ...  Día 200
     Alumno 1    [   0       0       0    ...    0   ]
-    Alumno 2    [   0       1       0    ...    0 _ ]  < Faltó el Día 2
+    Alumno 2    [   0       1       0    ...    0   ]  < Faltó el Día 2
        ...      [  ...     ...     ...   ...   ...  ]
     Alumno 1000 [   0       0       0    ...    0   ]
 
@@ -114,6 +114,7 @@ Justificación:
 En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 registros potenciales), se asume una asistencia regular donde solo ocurren 500 faltas reales en todo el año (la matriz está compuesta en un 99.75% por ceros).
 
 -Matriz Completa: Obliga a reservar espacio estático en RAM para las 200,000 casillas. La inmensa mayoría del espacio almacenará información redundante (asistencias/ceros).
+
 -Matriz Poco Densa: Almacena únicamente los 500 eventos reales (las faltas) mediante su ubicación (alumno, día). Esto reduce el consumo de memoria en más del 99%, evitando el desperdicio de recursos.
 
 
