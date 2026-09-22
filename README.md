@@ -12,7 +12,7 @@
 | [Huamancha Perez Jose Jossimar] | Integrador / Desarrollador | Actividad 3 (Matrices) y gestión del repositorio. |
 | [Paco Becerra Juan Steve] | Desarrollador | Actividad 2 (Vectores - Búsqueda e Inserción). |
 | [Nombre Compañero 3] | Desarrollador | Actividad 2 (Vectores - Ordenamiento) y Actividad 4. |
-| [Nombre Compañero 4] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
+| [Mucho Mamani Richard] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 | [Nombre Compañero 5] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 
 
@@ -65,8 +65,56 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 ### Actividad 3: Matrices
 [Aquí tú pegas tu código de matrices y explicas la lógica...]
 
-### Actividad 4: Matrices especiales
-[Aquí pegan el ejemplo de la matriz poco densa...]
+### Actividad 4: Matrices Especiales
+
+4.1 Matriz cuadrada 
+Una matriz cuadrada es aquella que tiene el mismo número de filas que de columnas. 
+
+Ejemplo: 
+Matriz cuadrada 3 x 3  
+
+[  1   4   2  ]
+[  0   5   8  ]
+[  3   9   6  ]
+3 fílas y 3 columnas. 
+
+
+4.2 Matriz poco densa 
+Conocida también como matriz dispersa, es una matriz en la cual la gran mayoría de sus 
+elementos son cero y solo unos pocos elementos tienen valores diferentes de cero. 
+
+Ejemplo: 
+Matriz poco densa 4 x 4 
+
+[  0   0   0   5  ]
+[  0   2   0   0  ]
+[  0   0   0   0  ]
+[  8   0   0   0 ]
+De los 16 elementos de esta matriz, solo 3 son distintos de cero. Por eso se considera una 
+matriz poco densa. 
+
+Diferencia entre ambas: 
+Matriz cuadrada: se define por su forma >  mismo número de filas y columnas. 
+Matriz poco densa: se define por la cantidad de ceros > la mayoría de sus elementos son 
+cero.
+
+Ejemplo: Registro de Asistencia Semanal de un Colegio
+Un colegio con 1,000 alumnos. Necesitan registrar las faltas de asistencia durante un año escolar de 200 días.
+
+Si el alumno asistió a clase, se registra un 0.
+Si el alumno faltó, se registra un 1.
+
+              Día 1   Día 2   Día 3  ...  Día 200
+Alumno 1    [   0       0       0    ...    0 _ ]
+Alumno 2    [_  0       1       0    ...    0 _ ]  < Faltó el Día 2
+  ...       [  ...     ...     ...   ...   ...  ]
+Alumno 1000 [  0       0       0    ...    0   _]
+
+Justificación:
+En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 registros potenciales), se asume una asistencia regular donde solo ocurren 500 faltas reales en todo el año (la matriz está compuesta en un 99.75% por ceros).
+
+-Matriz Completa: Obliga a reservar espacio estático en RAM para las 200,000 casillas. La inmensa mayoría del espacio almacenará información redundante (asistencias/ceros).
+-Matriz Poco Densa: Almacena únicamente los 500 eventos reales (las faltas) mediante su ubicación (alumno, día). Esto reduce el consumo de memoria en más del 99%, evitando el desperdicio de recursos.
 
 
 ## 5. Matriz de participación
