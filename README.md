@@ -10,7 +10,7 @@
 | Integrante | Rol | Aporte principal |
 |---|---|---|
 | [Huamancha Perez Jose Jossimar] | Integrador / Desarrollador | Actividad 3 (Matrices) y gestión del repositorio. |
-| [Nombre Compañero 2] | Desarrollador | Actividad 2 (Vectores - Búsqueda e Inserción). |
+| [Paco Becerra Juan Steve] | Desarrollador | Actividad 2 (Vectores - Búsqueda e Inserción). |
 | [Nombre Compañero 3] | Desarrollador | Actividad 2 (Vectores - Ordenamiento) y Actividad 4. |
 | [Nombre Compañero 4] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 | [Nombre Compañero 5] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
