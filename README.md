@@ -132,7 +132,7 @@ En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 regist
 | Huamancha Perez Jose Jossimar   | Alta | Media | Alta | Sí | Commits en Actividad 3 y README |
 | [Nombre 2] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
 | [Nombre 3] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
-| [Mucho Mamani Richard] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
+| [Mucho Mamani Richard] | Alta | Media | Media | Sí | Commits en Actividad 2 |
 | [Nombre 5] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
 
 ## 6. Video de exposición
