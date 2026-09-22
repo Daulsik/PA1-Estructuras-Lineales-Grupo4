@@ -108,6 +108,7 @@ Ejemplo: Registro de Asistencia Semanal de un Colegio
 Un colegio con 1,000 alumnos. Necesitan registrar las faltas de asistencia durante un año escolar de 200 días.
 
 Si el alumno asistió a clase, se registra un 0.
+
 Si el alumno faltó, se registra un 1.
 
                   Día 1   Día 2   Día 3  ...  Día 200
