@@ -73,9 +73,9 @@ Una matriz cuadrada es aquella que tiene el mismo número de filas que de column
 Ejemplo: 
 Matriz cuadrada 3 x 3  
 
-[  1   4   2  ]
-[  0   5   8  ]
-[  3   9   6  ]
+    [  1   4   2  ]
+    [  0   5   8  ]
+    [  3   9   6  ]
 3 fílas y 3 columnas. 
 
 
@@ -86,10 +86,10 @@ elementos son cero y solo unos pocos elementos tienen valores diferentes de cero
 Ejemplo: 
 Matriz poco densa 4 x 4 
 
-[  0   0   0   5  ]
-[  0   2   0   0  ]
-[  0   0   0   0  ]
-[  8   0   0   0 ]
+    [  0   0   0   5  ]
+    [  0   2   0   0  ]
+    [  0   0   0   0  ]
+    [  8   0   0   0  ]
 De los 16 elementos de esta matriz, solo 3 son distintos de cero. Por eso se considera una 
 matriz poco densa. 
 
@@ -105,10 +105,10 @@ Si el alumno asistió a clase, se registra un 0.
 Si el alumno faltó, se registra un 1.
 
               Día 1   Día 2   Día 3  ...  Día 200
-Alumno 1    [   0       0       0    ...    0 _ ]
-Alumno 2    [_  0       1       0    ...    0 _ ]  < Faltó el Día 2
-  ...       [  ...     ...     ...   ...   ...  ]
-Alumno 1000 [  0       0       0    ...    0   _]
+    Alumno 1    [   0       0       0    ...    0   ]
+    Alumno 2    [   0       1       0    ...    0 _ ]  < Faltó el Día 2
+       ...      [  ...     ...     ...   ...   ...  ]
+    Alumno 1000 [   0       0       0    ...    0   ]
 
 Justificación:
 En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 registros potenciales), se asume una asistencia regular donde solo ocurren 500 faltas reales en todo el año (la matriz está compuesta en un 99.75% por ceros).
