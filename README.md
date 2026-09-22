@@ -80,6 +80,7 @@ Matriz cuadrada 3 x 3
 3 fílas y 3 columnas. 
 
 
+
 4.2 Matriz poco densa 
 
 Conocida también como matriz dispersa, es una matriz en la cual la gran mayoría de sus 
