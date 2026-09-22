@@ -67,7 +67,8 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 
 ### Actividad 4: Matrices Especiales
 
-4.1 Matriz cuadrada 
+4.1 Matriz cuadrada  
+
 Una matriz cuadrada es aquella que tiene el mismo número de filas que de columnas. 
 
 Ejemplo: 
@@ -80,6 +81,7 @@ Matriz cuadrada 3 x 3
 
 
 4.2 Matriz poco densa 
+
 Conocida también como matriz dispersa, es una matriz en la cual la gran mayoría de sus 
 elementos son cero y solo unos pocos elementos tienen valores diferentes de cero. 
 
