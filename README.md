@@ -104,7 +104,7 @@ Un colegio con 1,000 alumnos. Necesitan registrar las faltas de asistencia duran
 Si el alumno asistió a clase, se registra un 0.
 Si el alumno faltó, se registra un 1.
 
-              Día 1   Día 2   Día 3  ...  Día 200
+                  Día 1   Día 2   Día 3  ...  Día 200
     Alumno 1    [   0       0       0    ...    0   ]
     Alumno 2    [   0       1       0    ...    0 _ ]  < Faltó el Día 2
        ...      [  ...     ...     ...   ...   ...  ]
