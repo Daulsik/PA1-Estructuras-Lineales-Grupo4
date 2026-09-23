@@ -12,7 +12,7 @@
 | [Huamancha Perez Jose Jossimar] | Integrador / Desarrollador | Actividad 3 (Matrices) y gestión del repositorio. |
 | [Paco Becerra Juan Steve] | Desarrollador | Actividad 2 (Vectores - Búsqueda e Inserción). |
 | Gabriel Valdiviezo Castillo | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
-| [Mucho Mamani Richard] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
+| [Mucho Mamani Richard] | Analista / Documentador | Actividad 4 (Análisis teórico) y revisión general. |
 | [Nombre Compañero 5] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 
 
