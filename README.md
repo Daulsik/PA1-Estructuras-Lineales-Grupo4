@@ -253,7 +253,7 @@ En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 regist
 | Juan Steve Paco Becerra | Alta | Alta | Alta | Sí | Commits en Actividad 2 , README Y subir material a youtube|
 | Gabriel Vadlviezo Castillo | Alta | Alta | Alta | Sí | Commits en Actividad 1 |
 | [Mucho Mamani Richard] | Alta | Media | Media | Sí | Commits en Actividad 2 |
-| [Nombre 5] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
+| [Marvin] | Bajo | Bajo | Bajo | No | Commits en Actividad 2 |
 
 ## 6. Video de exposición
 
