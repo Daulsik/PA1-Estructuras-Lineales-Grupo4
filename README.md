@@ -59,8 +59,24 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 ### Actividad 1: Análisis del problema
 [Aquí el compañero 4 pega su texto explicando la teoría...]
 
-### Actividad 2: Modelado y operaciones
-``` import java.util.Arrays;
+### Actividad 2: Modelado y operaciones con vectores 
+
+La solución fue desarrollada en Java, empleando arreglos unidimensionales estáticos. Se diseñaron tres algoritmos fundamentales integrados en un solo flujo de ejecución: búsqueda secuencial para los valores extremos, redimensionamiento manual mediante copiado de arreglos para la inserción de un nuevo dato, y el método de Bubble Sort para organizar la cantidad de inscritos de menor a mayor.
+
+
+1. Representación gráfica del vector:
+El arreglo inicial contiene la cantidad de inscritos por taller. En Java, los índices comienzan en la posición 0.
+
+
+| Índice | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Valor (Inscritos)** | 28 | 15 | 34 | 21 | 19 | 40 | 12 | 26 |
+
+
+2. Codigo:
+
+```
+import java.util.Arrays;
 
 public class problema2 {
 
@@ -132,6 +148,22 @@ public class problema2 {
 
     
 ```
+
+
+3. Explicación de la lógica:
+
+
+Algoritmo 1 (Mayor y Menor): Inicializamos dos variables asumiendo que el primer elemento es el mayor y el menor. Recorremos el arreglo comparando el valor actual con nuestras variables, reemplazándolas si encontramos un nuevo extremo. Costo: Lineal $O(n)$.
+
+
+Algoritmo 2 (Inserción en posición): Como los arreglos estáticos en Java no pueden crecer, creamos un nuevoArreglo con tamaño n+1. Usamos un ciclo para copiar los datos del original, y cuando el índice coincide con la posición indicada (3), insertamos el nuevo valor (50).
+
+Algoritmo 3 (Ordenamiento Burbuja / Bubble Sort): Utilizamos dos ciclos for anidados que comparan pares adyacentes y los intercambian si el de la izquierda es mayor, empujando los más grandes al final en cada "pasada".
+
+Costo del Algoritmo 3:
+
+Mayor costo -> $O(n^2)$: Ocurre cuando el arreglo está ordenado al revés. El algoritmo hace todas las comparaciones posibles (49 iteraciones) y el máximo número de intercambios.
+
 
 ### Actividad 3: Matrices
 [Aquí tú pegas tu código de matrices y explicas la lógica...]
