@@ -46,6 +46,11 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 
 ## 4. Evidencias
 
+Grafico y instrucciones de Actividad 2:
+
+![Actividad 2 Grafico](imagenes/Actividad%202.Grafico.png.png)
+
+
 Terminal de la Actividad 2:
 
 ![Terminal Actividad 2](imagenes/Terminal.Actividad2.png)
