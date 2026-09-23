@@ -240,7 +240,7 @@ En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 regist
 
 ## 6. Video de exposición
 
-Video público de YouTube: [PEGAR AQUÍ EL ENLACE DEL VIDEO NO LISTADO]
+Video público de YouTube: [https://youtu.be/QnRG9MXlSAY?si=a8VRZNDFKZtLoxad]
 
 Nota: Todos los integrantes participan explicando el procedimiento y las decisiones técnicas con las cámaras prendidas.
 
