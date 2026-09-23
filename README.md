@@ -244,7 +244,7 @@ public class Actividad3 {
 ![Terminal Actividad 3](imagenes/Actividad3_Captura3.jfif)
 
 
-3. EXPLICAION DE LA LOGICA:
+3. EXPLICACIÓN DE LA LOGICA:
 
 Total por Aula (Suma de filas): Se utilizan bucles anidados donde el bucle exterior controla las filas (aulas) y el interior suma horizontalmente los valores de las columnas (horarios) correspondientes a cada aula. La variable acumuladora se reinicia a cero al cambiar de fila.
 
