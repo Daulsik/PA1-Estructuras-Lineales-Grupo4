@@ -183,7 +183,77 @@ Mayor costo -> $O(n^2)$: Ocurre cuando el arreglo está ordenado al revés. El a
 
 
 ### Actividad 3: Matrices
-[Aquí tú pegas tu código de matrices y explicas la lógica...]
+1. CODIGO:
+```
+public class Actividad3 {
+    public static void main(String[] args) {
+
+        // 1. Esta parte es de Declaración e inicialización de la matriz (4 filas x 5 columnas)
+        int[][] ocupacion = {
+                {25, 30, 15, 20, 10}, // Aula 0
+                {18, 22, 28, 12,  5}, // Aula 1
+                {35, 40, 38, 25, 18}, // Aula 2
+                {10, 15, 12, 30, 22}  // Aula 3
+        };
+
+        int filas = ocupacion.length;
+        int columnas = ocupacion[0].length;
+
+        System.out.println("--- TOTAL DE ESTUDIANTES POR AULA ---");
+        // 2. Algoritmo para calcular total por aula (Para sumar las filas)
+        for (int i = 0; i < filas; i++) {
+            int sumaAula = 0;
+            for (int j = 0; j < columnas; j++) {
+                sumaAula += ocupacion[i][j];
+            }
+            System.out.println("Aula [" + i + "]: " + sumaAula + " estudiantes.");
+        }
+
+        System.out.println("\n--- TOTAL DE ESTUDIANTES POR HORARIO ---");
+        // 3. Algoritmo para calcular total por horario (Para sumar las  columnas)
+        for (int j = 0; j < columnas; j++) {
+            int sumaHorario = 0;
+            for (int i = 0; i < filas; i++) {
+                sumaHorario += ocupacion[i][j];
+            }
+            System.out.println("Horario [" + j + "]: " + sumaHorario + " estudiantes.");
+        }
+
+        System.out.println("\n--- CELDA CON MAYOR OCUPACIÓN ---");
+        // 4. Identificamos la celda con mayor ocupación
+        int maxEstudiantes = ocupacion[0][0];
+        int aulaMax = 0;
+        int horarioMax = 0;
+
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                if (ocupacion[i][j] > maxEstudiantes) {
+                    maxEstudiantes = ocupacion[i][j];
+                    aulaMax = i;
+                    horarioMax = j;
+                }
+            }
+        }
+        System.out.println("Mayor ocupación: " + maxEstudiantes + " estudiantes.");
+        System.out.println("Ubicación -> Aula [" + aulaMax + "], Horario [" + horarioMax + "]");
+    }
+}
+```
+2. Imagen terminal:
+
+![Terminal Actividad 3](imagenes/Actividad3_Captura3.jfif)
+
+
+3. EXPLICAION DE LA LOGICA:
+
+Total por Aula (Suma de filas): Se utilizan bucles anidados donde el bucle exterior controla las filas (aulas) y el interior suma horizontalmente los valores de las columnas (horarios) correspondientes a cada aula. La variable acumuladora se reinicia a cero al cambiar de fila.
+
+Total por Horario (Suma de columnas): Se invierte el orden lógico de iteración. El bucle exterior ahora controla las columnas y el interior recorre las filas hacia abajo, acumulando la suma vertical de los estudiantes inscritos en un mismo bloque horario.
+
+Mayor Ocupación (Búsqueda del máximo): Se inicializa la variable del valor máximo asumiendo temporalmente que está en la primera celda [0][0]. Luego, se recorre toda la matriz comparando cada posición mediante un condicional if. Si una celda tiene un valor mayor, se sobreescribe el máximo y se guardan inmediatamente sus coordenadas (índices i y j) en las variables aulaMax y horarioMax para ubicarlo con precisión al final.
+
+Uso de bucles anidados: Toda la lógica se basa en iteraciones anidadas (un for dentro de otro), ya que es el único mecanismo algorítmico que permite recorrer de forma exhaustiva una estructura de datos bidimensional estática (matriz), garantizando que se evalúe el 100% de la información almacenada.
+
 
 ### Actividad 4: Matrices Especiales
 
@@ -249,7 +319,7 @@ En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 regist
 
 | Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia |
 |------------|------------|---------|---------------|------------|-----------|
-| Huamancha Perez Jose Jossimar   | Alta | Media | Alta | Sí | Commits en Actividad 3 y README |
+| Huamancha Perez Jose Jossimar   | Alta | Media | Alta | Sí | Commits en Actividad 3, README y creación del repositorio |
 | Juan Steve Paco Becerra | Alta | Alta | Alta | Sí | Commits en Actividad 2 , README Y subir material a youtube|
 | Gabriel Vadlviezo Castillo | Alta | Alta | Alta | Sí | Commits en Actividad 1 |
 | [Mucho Mamani Richard] | Alta | Media | Media | Sí | Commits en Actividad 2 |
