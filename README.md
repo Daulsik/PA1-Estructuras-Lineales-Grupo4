@@ -247,7 +247,7 @@ Nota: Todos los integrantes participan explicando el procedimiento y las decisio
 ## 7. Conclusiones
 
 - El uso de estructuras estáticas como arreglos y matrices resulta eficiente cuando se conoce de antemano el tamaño de los datos a procesar, como los bloques horarios o aulas fijas.
-- [Conclusión sobre la eficiencia (Big O) del ordenamiento aplicado en la Actividad 2].
+- El algoritmo de ordenamiento aplicado Bubble Sort presenta una complejidad temporal cuadrática O(n²). Aunque resulta funcional e intuitivo para volúmenes pequeños de datos como los de este caso, pierde eficiencia rápidamente si la lista crece, ya que el número de comparaciones aumenta de forma drástica.
 - [Conclusión sobre por qué una matriz poco densa optimiza memoria frente a una completa en el caso académico].
 
 
