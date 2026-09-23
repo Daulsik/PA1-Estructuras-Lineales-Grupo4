@@ -11,7 +11,7 @@
 |---|---|---|
 | [Huamancha Perez Jose Jossimar] | Integrador / Desarrollador | Actividad 3 (Matrices) y gestión del repositorio. |
 | [Paco Becerra Juan Steve] | Desarrollador | Actividad 2 (Vectores - Búsqueda e Inserción). |
-| [Nombre Compañero 3] | Desarrollador | Actividad 2 (Vectores - Ordenamiento) y Actividad 4. |
+| Gabriel Valdiviezo Castillo | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 | [Mucho Mamani Richard] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 | [Nombre Compañero 5] | Analista / Documentador | Actividad 1 (Análisis teórico) y revisión general. |
 
@@ -57,7 +57,19 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 ## Desarrollo del Examen
 
 ### Actividad 1: Análisis del problema
-[Aquí el compañero 4 pega su texto explicando la teoría...]
+
+-	    Explicando la diferencia entre estructura estática y dinámica:
+a.	Estructura de datos estática: Esta tiene un tamaño ya definido previamente y no puede ser alterado en la ejecución del programa. Un ejemplo sería un arreglo que cuenta con 15 posiciones, si es que necesito agregar posiciones, tengo que crear otro arreglo.
+b.	Estructura de datos dinámica: Esta tiene un tamaño que puede ser cambiado incluso durante la ejecución del programa, esto nos permite agregar o incluso eliminar elementos dependiendo de las necesidades que se tenga. Un ejemplo serían pilas y colas las cuales siguen los principios de LIFO y FIFO.
+
+-	    ¿Por qué resulta adecuado trabajar con arreglos y matrices?
+o	Para esta primera etapa del sistema resulta adecuado porque el caso se centra en el manejo de estructuras lineales estáticas.
+Los arreglos se usan para poder almacenar información como, por ejemplo: Cantidad de estudiantes en cada taller. Las matrices permiten representar información que esté relacionada con dos dimensiones, por ejemplo: Distribución de estudiantes según sus aulas y horarios.
+
+-	    Relación entre dato, algoritmo y estructura de datos:
+	Dato: Es la información que se necesita almacenar en el sistema: Nombre de taller, Cantidad de inscritos, aula y horario.
+	Algoritmo: Es el conjunto de pasos para poder procesar los datos que han sido almacenados: Ordenar talleres según cantidad de inscritos y Buscar cantidad de estudiantes en un taller.
+	Estructura de datos: Es la forma en la que los datos serán organizados: Arreglos y Matrices.
 
 ### Actividad 2: Modelado y operaciones con vectores 
 
@@ -234,7 +246,7 @@ En un sistema de asistencia para 1,000 alumnos durante 200 días (200,000 regist
 |------------|------------|---------|---------------|------------|-----------|
 | Huamancha Perez Jose Jossimar   | Alta | Media | Alta | Sí | Commits en Actividad 3 y README |
 | Juan Steve Paco Becerra | Alta | Alta | Alta | Sí | Commits en Actividad 2 , README Y subir material a youtube|
-| [Nombre 3] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
+| Gabriel Vadlviezo Castillo | Alta | Alta | Alta | Sí | Commits en Actividad 1 |
 | [Mucho Mamani Richard] | Alta | Media | Media | Sí | Commits en Actividad 2 |
 | [Nombre 5] | Alta | Alta | Media | Sí | Commits en Actividad 2 |
 
@@ -252,7 +264,7 @@ Nota: Todos los integrantes participan explicando el procedimiento y las decisio
 
 
 
-**Última actualización:** [DD/MM/AAAA]
+**Última actualización:** [22/09/2026]
 
 
 ---
