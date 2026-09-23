@@ -47,11 +47,9 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 ## 4. Evidencias
 
 -- Sección para adjuntar capturas de pantalla de la consola mostrando:
+![Terminal Actividad 2](Actividad_2_Vectores/Terminal.Actividad2)
 
-###   ACTIVIDAD 3:
-[Captura 1: Resultado del vector ordenado y valores mayor/menor]
-
-[Captura 2: Resultado de la suma de filas/columnas en la matriz]
+###   ACTIVIDADES:
 
 
 ## Desarrollo del Examen
