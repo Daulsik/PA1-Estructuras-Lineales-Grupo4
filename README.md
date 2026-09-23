@@ -46,8 +46,10 @@ No publicar contraseñas, tokens, credenciales ni datos sensibles.
 
 ## 4. Evidencias
 
--- Sección para adjuntar capturas de pantalla de la consola mostrando:
-![Terminal Actividad 2](Actividad_2_Vectores/Terminal.Actividad2)
+Terminal de la Actividad 2:
+
+![Terminal Actividad 2](imagenes/Terminal.Actividad2.png)
+
 
 ###   ACTIVIDADES:
 
